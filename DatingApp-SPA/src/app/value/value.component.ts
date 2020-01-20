@@ -10,14 +10,14 @@ export class ValueComponent implements OnInit {
 
   constructor(private https: HttpClient) { }
 
-  value: any;
+  values: any;
   ngOnInit() {
     this.getValues();
   }
 
   getValues() {
     this.https.get('http://localhost:5000/api/values').subscribe(response => {
-      this.value = response;
+      this.values = response;
     }, error => {
       console.log(error);
     });
