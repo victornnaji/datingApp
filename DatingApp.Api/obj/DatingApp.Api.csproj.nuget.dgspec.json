@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj": {}
+    "C:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj": {
+    "C:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
+        "projectUniqueName": "C:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
         "projectName": "DatingApp.Api",
-        "projectPath": "c:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
+        "projectPath": "C:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
         "packagesPath": "C:\\Users\\nnaji\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\obj\\",
+        "outputPath": "C:\\Users\\nnaji\\Downloads\\DECAGON\\PROJECT\\DatingApp\\DatingApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.1, )"
